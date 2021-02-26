@@ -33,7 +33,8 @@ export default function LandingCardsSection() {
                 {data.map(card => (
                     <Col className='color-5' span={8}>
                         <Card
-                            className='card-size'
+                            bordered={false}
+                            className='card-size shadow'
                             cover={<img alt={card.title} src={card.img} />}
                             actions={[<Button type='text' icon={<RightOutlined />}>Más información</Button>]}
                         >
