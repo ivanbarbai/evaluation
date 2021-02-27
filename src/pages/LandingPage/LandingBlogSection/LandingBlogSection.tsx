@@ -3,7 +3,7 @@ import { Row, Col, Typography, Card, Button } from 'antd';
 import { RightOutlined } from '@ant-design/icons';
 import './styles.less';
 
-const { Text, Title } = Typography;
+const { Title } = Typography;
 const { Meta } = Card;
 
 const data = [
